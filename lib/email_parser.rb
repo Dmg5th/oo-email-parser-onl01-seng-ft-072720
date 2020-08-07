@@ -17,5 +17,5 @@ class EmailAddressParser
    email_array 
   end 
   
-binding.pry   
+# binding.pry   
 end 
