@@ -13,7 +13,7 @@ class EmailAddressParser
   
   
   def parse
-   email_array = @email.split(/[, ]/)
+   email_array = @email.split(/[, ]/).reject { |x| x.empty? }
    email_array 
   end 
   
