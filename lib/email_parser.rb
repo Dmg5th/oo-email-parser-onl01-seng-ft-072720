@@ -13,8 +13,8 @@ class EmailAddressParser
   
   
   def parse
-   email_array = @email.split(/[, ])
-    
+   email_array = @email.split(/[, ]/)
+   email_array 
   end 
   
 binding.pry   
